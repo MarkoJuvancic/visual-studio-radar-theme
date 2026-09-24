@@ -1,0 +1,20 @@
+{
+  "theme": "Radar",
+  "reference": "Flight Radar image supplied by user",
+  "colors": {
+    "editorBackground": "#0B0C17",
+    "deepChrome": "#06050A",
+    "panel": "#0D1119",
+    "surface": "#10191B",
+    "border": "#2F4E3D",
+    "accent": "#29A66C",
+    "accentBright": "#66B995",
+    "primaryText": "#C6EDE2",
+    "secondaryText": "#86AD9B",
+    "comment": "#4C895C",
+    "selection": "#2A7255",
+    "warning": "#E1C45A",
+    "error": "#FF7A80",
+    "inactiveSelection": "#1A4636"
+  }
+}

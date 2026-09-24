@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0"
+                 xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011"
+                 xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="RadarTheme.VisualStudio2026.6a55a802-710a-41c6-9603-f659c9c27a87"
+              Version="1.0.5"
+              Language="en-US"
+              Publisher="Radar Theme" />
+    <DisplayName>Radar Theme for Visual Studio 2026</DisplayName>
+    <Description xml:space="preserve">A dark phosphor/radar-inspired Visual Studio 2026 theme based on a navy-black surface, muted radar greens, pale cyan-green text, and restrained semantic warning/error colors.</Description>
+    <Tags>Theme, dark, radar, green, phosphor, Visual Studio 2026</Tags>
+  </Metadata>
+
+  <Installation>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.9, 19.0)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+    <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.9, 19.0)">
+      <ProductArchitecture>arm64</ProductArchitecture>
+    </InstallationTarget>
+  </Installation>
+
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP"
+                DisplayName="Microsoft .NET Framework"
+                d:Source="Manual"
+                Version="[4.5,)" />
+  </Dependencies>
+
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor"
+                  Version="[17.0,)"
+                  DisplayName="Visual Studio core editor" />
+  </Prerequisites>
+
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.VsPackage"
+           d:Source="Project"
+           d:ProjectName="%CurrentProject%"
+           Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+  </Assets>
+</PackageManifest>
