@@ -4,7 +4,9 @@ A dark Visual Studio 2026 theme inspired by radar and avionics displays. It comb
 
 ## Screenshots
 
-> Screenshots coming soon.
+![Radar theme in the Visual Studio 2026 C# editor, with a selected block](docs/screenshots/radar-csharp.png)
+
+*C# editor with semantic highlighting and the v1.0.5 selection color.*
 
 ## Design
 
